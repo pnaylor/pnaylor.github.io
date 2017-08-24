@@ -1,0 +1,189 @@
+body {
+    font-family:        Arial, Helvetica, sans-serif;
+/*    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;*/
+
+    background-color:   black;
+    font-size:          109%;
+    color:              white;
+}
+
+h1 {
+    font-family:        "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left:        225px;
+    margin-right:       0px;
+    margin-top:         72px;
+    margin-bottom:      28px;
+    font-size:          215%;
+/*    text-align:       right;*/
+    text-decoration:none;
+}
+
+h2 {
+    font-family:        "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    margin-left:        20px;
+    margin-right:       0px;
+    margin-top:         72px;
+    margin-bottom:      28px;
+    font-size:          175%;
+}
+
+h3 {
+    font-family:        Arial, Helvetica, sans-serif;
+    font-size:          140%;
+    color:              #0f8;
+    margin-top:         72px;
+}
+
+h4 {
+    font-family:        Arial, Helvetica, sans-serif;
+    font-size:          140%;
+    color:              #0f8;
+}
+
+h2 a {
+    text-decoration:    none;
+    border:             2px solid #000;
+}
+
+h2 a:hover {
+    border:             2px solid #555;
+}
+
+ul {
+    list-style-type:    circle;
+}
+
+/* --------------------------------------------------
+   Links
+   -------------------------------------------------- */
+
+a {
+    color:              #35f;
+    text-decoration:    none;
+}
+
+a:visited {
+    color:              #35f;
+    text-decoration:    none;
+}
+
+a:hover {
+    color:              #0f9;
+}
+
+a:focus {
+    outline:            thin dotted;
+}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover,
+a:active {
+    outline:            0;
+}
+
+.iframe {
+    text-decoration:    none;
+    margin-left:        20px;
+}
+
+/*
+#cell a#gl { background-image:   url("../img/shapes.jpg"); }
+#cell a#laplace { background-image:   url("../img/laplace.jpg"); }
+#cell a#mandl { background-image:   url("../img/mandel.jpg"); }
+#cell a#nbody { background-image:   url("../img/nbody.jpg"); } */
+
+/* --------------------------------------------------
+   Sections
+   -------------------------------------------------- */
+
+#section {
+    line-height:    145%;
+    margin-left:    60px;
+    margin-right:   320px;
+    margin-top:     40px;
+}
+
+#webglDemo {
+    margin-left:    65px;
+    margin-top:     15px;
+}
+
+#bio p {
+}
+
+ol#itable {
+    display:        inline-table;
+}
+
+#row {
+    display:        table-row;
+}
+
+#cell {
+    display:        table-cell;
+    padding:        20px;
+    vertical-align: top;
+}
+
+#cell a {
+    display:        inline-block;
+    /*width:          400px;
+    height:         300px;*/
+}
+
+#cell img {
+    width:          200px;
+    height:         182px;
+    border:         0px;
+}
+
+/* --------------------------------------------------
+   Nav Bar
+   Depending on the font you use, you may need to adjust the negative margin-top inside #navcontainer ul
+   -------------------------------------------------- */
+
+#navcontainer {
+    margin-left:        auto;
+    margin-right:       auto;
+    border-top:         2px solid #555;
+    z-index:            1;
+}
+
+#navcontainer ul {
+    list-style-type:    none;
+    text-align:         left;
+    margin-top:         -13px;
+    margin-left:        80px;
+    padding:            0;
+    position:           relative;
+    z-index:            2;
+}
+
+#navcontainer li {
+    display:            inline;
+    text-align:         center;
+    margin:             0 6px;
+    font-size:          124%;
+}
+
+#navcontainer li a {
+    padding:            2px 8px;
+    color:              #444;
+    background-color:   #fff;
+    border: 1px solid   #ccc;
+    text-decoration:    none;
+}
+
+#navcontainer li a:hover {
+    color:              #000;
+    border:             1px solid #555;
+    border-top:         2px solid #555;
+    border-bottom:      2px solid #555;
+}
+
+#navcontainer li a#current {
+    color:              #a00;
+    border:             1px solid #555;
+    border-top:         2px solid #555;
+    border-bottom:      2px solid #555;
+}

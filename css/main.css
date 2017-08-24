@@ -191,3 +191,8 @@ ol#itable {
 .note {
     display:            inline;
 }
+
+.note-title {
+    margin-left:        -45px;
+    margin-top:         25;
+}

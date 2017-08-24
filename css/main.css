@@ -187,3 +187,7 @@ ol#itable {
     border-top:         2px solid #555;
     border-bottom:      2px solid #555;
 }
+
+.note {
+    display:            inline;
+}

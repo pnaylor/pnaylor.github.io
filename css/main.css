@@ -36,7 +36,7 @@ h3 {
 
 h4 {
     font-family:        Arial, Helvetica, sans-serif;
-    font-size:          140%;
+    font-size:          120%;
     color:              #0f8;
 }
 
@@ -137,6 +137,15 @@ ol#itable {
     border:         0px;
 }
 
+.note {
+    display:            inline;
+}
+
+.note-title {
+    margin-left:        -45px;
+    margin-top:         25;
+}
+
 /* --------------------------------------------------
    Nav Bar
    Depending on the font you use, you may need to adjust the negative margin-top inside #navcontainer ul
@@ -186,13 +195,4 @@ ol#itable {
     border:             1px solid #555;
     border-top:         2px solid #555;
     border-bottom:      2px solid #555;
-}
-
-.note {
-    display:            inline;
-}
-
-.note-title {
-    margin-left:        -45px;
-    margin-top:         25;
 }

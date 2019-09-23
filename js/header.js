@@ -12,8 +12,6 @@ document.write('<h1>~ Paul Naylor</h1>\
 		<li>\
 			<a id="as" href="as.html">ActionScript</a></li>\
 		<li>\
-			<a id="resume" href="Paul_Naylors_Resume.pdf" target="_blank">Resume</a></li>\
-		<li>\
 			<a href="http://www.linkedin.com/in/naylorp">\
 				<img src="http://www.linkedin.com/img/webpromo/btn_profile_bluetxt_80x15.png" width="91" height="17" border="0" alt="View Paul Naylors profile on LinkedIn">\
 			</a></li>\
